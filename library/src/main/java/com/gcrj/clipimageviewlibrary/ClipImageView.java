@@ -335,7 +335,7 @@ public class ClipImageView extends View implements ScaleGestureDetector.OnScaleG
     protected Parcelable onSaveInstanceState() {
         Bundle bundle = new Bundle();
         bundle.putParcelable("bitmap", mBitmap);
-        return super.onSaveInstanceState();
+        return bundle;
     }
 
     @Override

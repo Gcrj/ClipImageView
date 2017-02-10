@@ -11,7 +11,7 @@ allprojects {
 ```
 ```
 dependencies {
-    compile 'com.github.Gcrj:ClipImageView:0.0.1'
+    compile 'com.github.Gcrj:ClipImageView:0.0.2'
     }
 ```
 
@@ -29,7 +29,7 @@ java:
 ClipImageView clipImageView = (ClipImageView) findViewById(R.id.clip_image_view);
 clipImageView.setImageResource(R.drawable.test);
 //clipImageView.setImageBitmap(bitmap);
-clipImageView.setClipSize(200);//默认150
+clipImageView.setClipSize(200);//默认150px
 Bitmap bitmap = clipImageView.clip();
 ...
  ```
